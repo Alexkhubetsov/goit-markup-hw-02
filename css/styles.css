@@ -5,6 +5,9 @@ body {
     background-color: #FFFFFF;
     line-height: 1.5;
 }
+a {
+    text-decoration: none;
+}
 .link {
     text-transform: uppercase;
     color: #4d5ae5;
@@ -22,10 +25,10 @@ color: #2e2f42;
 .logo-foot{
 color: #f4f4fd;
 }
-nav {
+.nav {
         color: #2e2f42;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -104,9 +107,7 @@ nav {
     background-color: #FFFFFF;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 ul,
 ol {
