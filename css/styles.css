@@ -1,16 +1,65 @@
 body {
-    font-family: "Helvetica Neue", "Roboto", "Verdana", sans-serif;
-    color: #212121;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     font-size: 14px;
-    background-color: #fafafa;
+    background-color: #FFFFFF;
     line-height: 1.5;
+}
+.link {
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+
+nav {
+        color: #2e2f42;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+address {
+    color: #434455;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address:hover,
+.address:focus {
+    color: #404bbf;
 }
 
 .page-title {
-    font-size: 24px;
-    font-family: "Oswald", sans-serif;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    font-family: "Raleway", sans-serif;
     text-align: center;
     color: white;
+}
+.button {
+    color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    color: #404bbf;
 }
 
 .section-title {
@@ -35,9 +84,7 @@ ul,
 ol {
     list-style-type: none;
 }
-.link {
-    text-transform: uppercase;
-}
+
 .team {
     background-color: #F4F4FD;
 }
