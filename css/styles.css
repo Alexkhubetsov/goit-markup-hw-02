@@ -14,10 +14,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-.link:hover,
-.link:focus {
-    color: #404bbf;
-}
 
 nav {
         color: #2e2f42;
@@ -26,8 +22,14 @@ nav {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-
-address {
+.nav:hover,
+.nav:focus {
+    color: #404bbf;
+}
+.adress{
+    font-style: normal;
+}
+.address-list {
     color: #434455;
     font-weight: 500;
     font-size: 16px;
